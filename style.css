@@ -1,0 +1,88 @@
+/* Font URL  */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@700&display=swap");
+
+/* Universal Selector  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Utility Class  */
+
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+/* Header  */
+.header-button {
+  border-radius: 22px;
+  color: var(--Pink);
+  border: none;
+  padding: 6px 12px;
+  background-color: white;
+  border: 2px solid var(--Pink);
+  cursor: pointer;
+}
+.header-button:hover {
+  color: var(--Light-Pink);
+  border: 2px solid var(--Light-Pink);
+}
+
+/* Hero section  */
+
+.bg-color {
+  background-color: var(--Pink) !important;
+  color: white;
+  padding-inline: 24px;
+}
+.bg-color:hover {
+  background-color: var(--Light-Pink) !important;
+  border-color: var(--Light-Pink);
+  color: white;
+}
+
+/* Feautures */
+.gap-flex {
+  gap: 30px;
+}
+.gap-flex{
+  gap: 15px;
+}
+.container-fuild{
+  background-color: var(--Very-Dark-Cyan);
+}
+.subscribe{
+  padding: 6px 12px;
+  background-color: var(--Pink);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+i{
+  cursor: pointer;
+  
+}
+i:hover{
+  color: blue !important;
+}
